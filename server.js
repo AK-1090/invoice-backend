@@ -11,7 +11,7 @@ app.use(
     origin: [
       'http://localhost:3000',
       'http://127.0.0.1:3000',
-      'https://your-frontend-url.vercel.app' // ← replace with your frontend URL
+      'https://invoice-management-c5gp.vercel.app'// ← replace with your frontend URL
     ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
