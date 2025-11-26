@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "BACKEND-INVOICE/backend/server.js",
+      "src": "backend/server.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "BACKEND-INVOICE/backend/server.js"
+      "dest": "backend/server.js"
     }
   ]
 }
